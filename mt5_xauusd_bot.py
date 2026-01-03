@@ -521,7 +521,7 @@ def main():
             log(f"Error: {mt5.last_error()}")
             mt5.shutdown()
             return
-        log(f"✅ Logged in to MT5: {Config.MT5_LOGIN} @ {Config.MT5_SERVER}")
+        log(f"[OK] Logged in to MT5: {Config.MT5_LOGIN} @ {Config.MT5_SERVER}")
     else:
         log("Using already logged-in MT5 terminal")
 

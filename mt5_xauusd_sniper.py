@@ -74,7 +74,7 @@ class Config:
     WINDOW_PERIODS = 7
 
     # === SESSION FILTERING (FTMO Sniper: ICT Killzones) ===
-    ENABLE_SESSION_FILTER = True
+    ENABLE_SESSION_FILTER = False  # SET FALSE FOR 24/7 TESTING
     LONDON_START = 7  # 07:00 UTC
     LONDON_END = 11  # 11:00 UTC
     NY_START = 13  # 13:00 UTC
@@ -765,12 +765,12 @@ def main():
             print(f"Error: {mt5.last_error()}")
             mt5.shutdown()
             return
-        log(f"✅ Logged in to MT5: {Config.MT5_LOGIN} @ {Config.MT5_SERVER}", "INFO")
+        log(f"[OK] Logged in to MT5: {Config.MT5_LOGIN} @ {Config.MT5_SERVER}", "INFO")
     else:
         log("Using already logged-in MT5 terminal", "INFO")
 
     log("=" * 70, "INFO")
-    log("🎯 FTMO SNIPER BOT STARTED", "INFO")
+    log("FTMO SNIPER BOT STARTED", "INFO")
     log("=" * 70, "INFO")
     log(f"Symbol: {Config.SYMBOL} | Lot: {Config.FIXED_LOT_SIZE} (FIXED)", "INFO")
     log(f"Daily Limits: +${Config.DAILY_PROFIT_TARGET} / -${Config.DAILY_LOSS_LIMIT}", "INFO")
