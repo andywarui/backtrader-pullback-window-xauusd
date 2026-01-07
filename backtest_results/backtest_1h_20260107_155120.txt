@@ -1,0 +1,125 @@
+BACKTEST RESULTS - 1H Timeframe
+Period: 2004-06-11 to 2025-09-30
+Data File: XAU_1h_converted.csv
+============================================================
+
+
+================================================================================
+[BOT] XAUUSD M30 TRADING BOT - INITIALIZING
+================================================================================
+📂 Loading data: XAU_1h_converted.csv
+[DATE] Backtest Period: 2004-06-11 to 2025-09-30
+[TIMER]  Timeframe: 1H (5-minute candles)
+[MONEY] Starting Capital: $100,000.00
+[STATS] Leverage: 30.0:1
+[TARGET] Risk Per Trade: 1.25%
+
+[TARGET] Trading Mode: [GREEN] LONG & [RED] SHORT
+[STATS] Pullback Entry: [OK] ENABLED
+🔍 ATR Filters: [OK] ENABLED
+⏰ Time Filter: [ERROR] DISABLED
+📊 LONG Window: 5 bars | SHORT Window: 7 bars
+================================================================================
+
+[ROCKET] Starting backtest...
+
+CONFIGURED: XAUUSD from filename: XAU_1H_CONVERTED.CSV
+Forex Config: XAU/USD
+Tick Value: 0.01 | Lot Size: 100 oz | Margin: 5.0%
+WARNING: Data file is XAU_1h_converted.csv but strategy is configured for XAUUSD
+TRADE REPORT: temp_reports\XAU_trades_20260107_155054.txt
+🎯 DEBUG: Used window_bar_start: 1723, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.3612890181601457
+🎯 DEBUG: Used window_bar_start: 2358, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.24204960789589103
+🎯 DEBUG: Used window_bar_start: 6198, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.04223780424572943
+🎯 DEBUG: Used window_bar_start: 6541, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.16029623080321564
+🎯 DEBUG: Used window_bar_start: 6876, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.09089846868865048
+🎯 DEBUG: Used window_bar_start: 7967, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.17792251670354586
+🎯 DEBUG: Used window_bar_start: 8669, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07912360830256171
+🎯 DEBUG: Used window_bar_start: 9055, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.06901292785088065
+🎯 DEBUG: Used window_bar_start: 10012, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.013042626593460227
+🎯 DEBUG: Used window_bar_start: 10177, bars = 4
+🔍 DEBUG: entry_atr_increment = 0.40836046300683737
+🎯 DEBUG: Used window_bar_start: 11966, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.2356727446837883
+🎯 DEBUG: Used window_bar_start: 12271, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.34973186228589936
+🎯 DEBUG: Used window_bar_start: 12424, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.09339511699443537
+🎯 DEBUG: Used window_bar_start: 13051, bars = 4
+🔍 DEBUG: entry_atr_increment = 0.8420115310781555
+🎯 DEBUG: Used window_bar_start: 13705, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.3204451509511821
+🎯 DEBUG: Used window_bar_start: 15581, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12990038562933637
+🎯 DEBUG: Used window_bar_start: 15716, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.2553557513968969
+🎯 DEBUG: Used window_bar_start: 15975, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.2729439167290817
+🎯 DEBUG: Used window_bar_start: 16230, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.24768817994175585
+🎯 DEBUG: Used window_bar_start: 16661, bars = 5
+🔍 DEBUG: entry_atr_increment = -0.2829578027929003
+🎯 DEBUG: Used window_bar_start: 59506, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.15518192046582202
+🎯 DEBUG: Used window_bar_start: 74494, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.273552169622699
+🎯 DEBUG: Used window_bar_start: 76146, bars = 3
+🔍 DEBUG: entry_atr_increment = 0.2549698583435358
+🎯 DEBUG: Used window_bar_start: 83784, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.19884398216727184
+🎯 DEBUG: Used window_bar_start: 84548, bars = 1
+🔍 DEBUG: entry_atr_increment = 1.1351577733305414
+🎯 DEBUG: Used window_bar_start: 89786, bars = 4
+🔍 DEBUG: entry_atr_increment = 0.25293533084858333
+=== SUNRISE OGLE SUMMARY ===
+Trades: 26 Wins: 10 Losses: 16 WinRate: 38.46% PF: 0.84
+Final Value: 97,374.72 | Total PnL: -2,625.28
+
+=== ENTRY SIGNAL DEBUG STATS ===
+Total Entry Signals Evaluated: 0
+Blocked Entries: 0
+Successful Entries: 0
+📊 Trade report completed: 26 trades recorded
+
+================================================================================
+[STATS] BACKTEST RESULTS - XAUUSD M30 TRADING BOT
+================================================================================
+
+[ACCOUNT] PORTFOLIO PERFORMANCE:
+   Starting Capital:    $100,000.00
+   Final Value:         $97,374.72
+   Total P&L:           $-2,625.28
+   Return:              -2.63%
+
+[UP] RISK-ADJUSTED METRICS:
+   Sharpe Ratio:        -0.005
+   Max Drawdown:        11.88%
+   Max Drawdown ($):    $12,427.15
+
+[TARGET] TRADE STATISTICS:
+   Total Trades:        26
+   Winning Trades:      10 (38.46%)
+   Losing Trades:       16
+
+[MONEY] PROFITABILITY:
+   Profit Factor:       0.84
+   Gross Profit:        $13,625.75
+   Gross Loss:          $16,251.03
+   Average Win:         $1,362.58
+   Average Loss:        $-1,015.69
+   Expectancy/Trade:    $-100.97
+
+================================================================================
+
+[STATS] Generating performance chart...
+
+[WARNING]  Plot error: cannot import name 'warnings' from 'matplotlib.dates' (D:\goldbot\backtrader-pullback-window-xauusd\venv\Lib\site-packages\matplotlib\dates.py)

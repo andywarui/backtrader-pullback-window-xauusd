@@ -1,0 +1,74 @@
+BACKTEST RESULTS - 4H Timeframe
+Period: 2004-06-11 to 2025-09-30
+Data File: XAU_4h_converted.csv
+============================================================
+
+
+================================================================================
+[BOT] XAUUSD M30 TRADING BOT - INITIALIZING
+================================================================================
+📂 Loading data: XAU_4h_converted.csv
+[DATE] Backtest Period: 2004-06-11 to 2025-09-30
+[TIMER]  Timeframe: 4H (5-minute candles)
+[MONEY] Starting Capital: $100,000.00
+[STATS] Leverage: 30.0:1
+[TARGET] Risk Per Trade: 1.25%
+
+[TARGET] Trading Mode: [GREEN] LONG & [RED] SHORT
+[STATS] Pullback Entry: [OK] ENABLED
+🔍 ATR Filters: [OK] ENABLED
+⏰ Time Filter: [ERROR] DISABLED
+📊 LONG Window: 5 bars | SHORT Window: 7 bars
+================================================================================
+
+[ROCKET] Starting backtest...
+
+CONFIGURED: XAUUSD from filename: XAU_4H_CONVERTED.CSV
+Forex Config: XAU/USD
+Tick Value: 0.01 | Lot Size: 100 oz | Margin: 5.0%
+WARNING: Data file is XAU_4h_converted.csv but strategy is configured for XAUUSD
+TRADE REPORT: temp_reports\XAU_trades_20260107_155123.txt
+🎯 DEBUG: Used window_bar_start: 1064, bars = 5
+🔍 DEBUG: entry_atr_increment = 0.17840102459476248
+=== SUNRISE OGLE SUMMARY ===
+Trades: 1 Wins: 1 Losses: 0 WinRate: 100.00% PF: inf
+Final Value: 101,233.89 | Total PnL: +1,233.89
+
+=== ENTRY SIGNAL DEBUG STATS ===
+Total Entry Signals Evaluated: 0
+Blocked Entries: 0
+Successful Entries: 0
+📊 Trade report completed: 1 trades recorded
+
+================================================================================
+[STATS] BACKTEST RESULTS - XAUUSD M30 TRADING BOT
+================================================================================
+
+[ACCOUNT] PORTFOLIO PERFORMANCE:
+   Starting Capital:    $100,000.00
+   Final Value:         $101,233.89
+   Total P&L:           $+1,233.89
+   Return:              +1.23%
+
+[UP] RISK-ADJUSTED METRICS:
+   Sharpe Ratio:        0.022
+   Max Drawdown:        19.84%
+   Max Drawdown ($):    $200.00
+
+[TARGET] TRADE STATISTICS:
+   Total Trades:        1
+   Winning Trades:      1 (100.00%)
+   Losing Trades:       0
+
+[MONEY] PROFITABILITY:
+   Profit Factor:       ∞
+   Gross Profit:        $1,233.89
+   Gross Loss:          $0.00
+   Average Win:         $1,233.89
+   Average Loss:        $0.00
+
+================================================================================
+
+[STATS] Generating performance chart...
+
+[WARNING]  Plot error: cannot import name 'warnings' from 'matplotlib.dates' (D:\goldbot\backtrader-pullback-window-xauusd\venv\Lib\site-packages\matplotlib\dates.py)

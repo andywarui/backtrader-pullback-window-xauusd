@@ -1,0 +1,13 @@
+BACKTEST RESULTS - 15M Timeframe
+Period: 2004-06-11 to 2023-12-07
+Data File: XAU_15m_converted.csv
+============================================================
+
+
+
+ERRORS:
+Traceback (most recent call last):
+  File "D:\goldbot\backtrader-pullback-window-xauusd\_temp_backtest_15m.py", line 14, in <module>
+    bot.run_backtest()
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'XAUUSDTradingBot' object has no attribute 'run_backtest'

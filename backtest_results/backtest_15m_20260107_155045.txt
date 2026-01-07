@@ -1,0 +1,557 @@
+BACKTEST RESULTS - 15M Timeframe
+Period: 2004-06-11 to 2023-12-07
+Data File: XAU_15m_converted.csv
+============================================================
+
+
+================================================================================
+[BOT] XAUUSD M30 TRADING BOT - INITIALIZING
+================================================================================
+📂 Loading data: XAU_15m_converted.csv
+[DATE] Backtest Period: 2004-06-11 to 2023-12-07
+[TIMER]  Timeframe: 15M (5-minute candles)
+[MONEY] Starting Capital: $100,000.00
+[STATS] Leverage: 30.0:1
+[TARGET] Risk Per Trade: 1.25%
+
+[TARGET] Trading Mode: [GREEN] LONG & [RED] SHORT
+[STATS] Pullback Entry: [OK] ENABLED
+🔍 ATR Filters: [OK] ENABLED
+⏰ Time Filter: [ERROR] DISABLED
+📊 LONG Window: 5 bars | SHORT Window: 7 bars
+================================================================================
+
+[ROCKET] Starting backtest...
+
+CONFIGURED: XAUUSD from filename: XAU_15M_CONVERTED.CSV
+Forex Config: XAU/USD
+Tick Value: 0.01 | Lot Size: 100 oz | Margin: 5.0%
+WARNING: Data file is XAU_15m_converted.csv but strategy is configured for XAUUSD
+TRADE REPORT: temp_reports\XAU_trades_20260107_154912.txt
+🎯 DEBUG: Used window_bar_start: 1592, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.040910267501803155
+🎯 DEBUG: Used window_bar_start: 6043, bars = 3
+🔍 DEBUG: entry_atr_increment = 0.05408081323194397
+🎯 DEBUG: Used window_bar_start: 6520, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.17399198245103753
+🎯 DEBUG: Used window_bar_start: 6891, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.3301099030960227
+🎯 DEBUG: Used window_bar_start: 11972, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.15817331751783487
+🎯 DEBUG: Used window_bar_start: 12365, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.1668783062151819
+🎯 DEBUG: Used window_bar_start: 17691, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.054439423474206494
+🎯 DEBUG: Used window_bar_start: 18428, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08189644691775422
+🎯 DEBUG: Used window_bar_start: 18665, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.0159789632145515
+🎯 DEBUG: Used window_bar_start: 22393, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.07167363787288905
+🎯 DEBUG: Used window_bar_start: 23757, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.018241426206753897
+🎯 DEBUG: Used window_bar_start: 25173, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.0822860441339528
+🎯 DEBUG: Used window_bar_start: 31002, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.01815759970438885
+🎯 DEBUG: Used window_bar_start: 31858, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.038325489222767184
+🎯 DEBUG: Used window_bar_start: 31987, bars = 4
+🔍 DEBUG: entry_atr_increment = 0.028833432806214088
+🎯 DEBUG: Used window_bar_start: 33564, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.062159176724943865
+🎯 DEBUG: Used window_bar_start: 36448, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07620301867746349
+🎯 DEBUG: Used window_bar_start: 36656, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.23662797085689036
+🎯 DEBUG: Used window_bar_start: 37603, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.04275343425836253
+🎯 DEBUG: Used window_bar_start: 37883, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.06998761579308987
+🎯 DEBUG: Used window_bar_start: 40606, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.41499063949724
+🎯 DEBUG: Used window_bar_start: 47377, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.03314388729113493
+🎯 DEBUG: Used window_bar_start: 49474, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.27554016751625054
+🎯 DEBUG: Used window_bar_start: 51582, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.06800775800679348
+🎯 DEBUG: Used window_bar_start: 51714, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.12785130563005798
+🎯 DEBUG: Used window_bar_start: 52082, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.002818227694886488
+🎯 DEBUG: Used window_bar_start: 53373, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.4388214996887756
+🎯 DEBUG: Used window_bar_start: 54121, bars = 4
+🔍 DEBUG: entry_atr_increment = 0.05327516060933046
+🎯 DEBUG: Used window_bar_start: 54336, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.17919082822125443
+🎯 DEBUG: Used window_bar_start: 54918, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08551408522077619
+🎯 DEBUG: Used window_bar_start: 55694, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.028449255290970032
+🎯 DEBUG: Used window_bar_start: 56580, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.004503380665900336
+🎯 DEBUG: Used window_bar_start: 57700, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.07699028940301011
+🎯 DEBUG: Used window_bar_start: 58544, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.04287133293883166
+🎯 DEBUG: Used window_bar_start: 58768, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.04048184784195619
+🎯 DEBUG: Used window_bar_start: 61080, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.019722292743034053
+🎯 DEBUG: Used window_bar_start: 62136, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.09156765700313396
+🎯 DEBUG: Used window_bar_start: 64150, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.21051168252896013
+🎯 DEBUG: Used window_bar_start: 64995, bars = 5
+🔍 DEBUG: entry_atr_increment = 0.08814967592527473
+🎯 DEBUG: Used window_bar_start: 69498, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.1213028337721016
+🎯 DEBUG: Used window_bar_start: 69689, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.09282782944091417
+🎯 DEBUG: Used window_bar_start: 70266, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.05826421076209165
+🎯 DEBUG: Used window_bar_start: 71560, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.5355846763468017
+🎯 DEBUG: Used window_bar_start: 73764, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.056666348150435475
+🎯 DEBUG: Used window_bar_start: 74177, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.2800268795139653
+🎯 DEBUG: Used window_bar_start: 77586, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.21816053494876786
+🎯 DEBUG: Used window_bar_start: 78958, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.00522047433433781
+🎯 DEBUG: Used window_bar_start: 82416, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08146220148883143
+🎯 DEBUG: Used window_bar_start: 82443, bars = 1
+🔍 DEBUG: entry_atr_increment = 1.4285217924989442
+🎯 DEBUG: Used window_bar_start: 85194, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.17687967679711358
+🎯 DEBUG: Used window_bar_start: 87968, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.41317130294412485
+🎯 DEBUG: Used window_bar_start: 88101, bars = 4
+🔍 DEBUG: entry_atr_increment = 0.45189025731283294
+🎯 DEBUG: Used window_bar_start: 89624, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.09766159586707568
+🎯 DEBUG: Used window_bar_start: 89909, bars = 2
+🔍 DEBUG: entry_atr_increment = 1.0147960703191254
+🎯 DEBUG: Used window_bar_start: 98641, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.19433145435292265
+🎯 DEBUG: Used window_bar_start: 100504, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.18133454182864006
+🎯 DEBUG: Used window_bar_start: 104014, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.18288506514955571
+🎯 DEBUG: Used window_bar_start: 106816, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.07462012763252535
+🎯 DEBUG: Used window_bar_start: 109314, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.09131427091379307
+🎯 DEBUG: Used window_bar_start: 110503, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.14262192439936772
+🎯 DEBUG: Used window_bar_start: 111570, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07915633045743031
+🎯 DEBUG: Used window_bar_start: 112187, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.2749494110689237
+🎯 DEBUG: Used window_bar_start: 113212, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.014848178320254868
+🎯 DEBUG: Used window_bar_start: 115458, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.004932594843398697
+🎯 DEBUG: Used window_bar_start: 116920, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.13009579905768553
+🎯 DEBUG: Used window_bar_start: 117407, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08616850765689588
+🎯 DEBUG: Used window_bar_start: 122351, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.1308042600740149
+🎯 DEBUG: Used window_bar_start: 125374, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.04505795747613328
+🎯 DEBUG: Used window_bar_start: 128434, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.010306206190070277
+🎯 DEBUG: Used window_bar_start: 129950, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.007861199180697387
+🎯 DEBUG: Used window_bar_start: 130707, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.3344583798259544
+🎯 DEBUG: Used window_bar_start: 134471, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.01296426216619806
+🎯 DEBUG: Used window_bar_start: 135941, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.03827307287082227
+🎯 DEBUG: Used window_bar_start: 136797, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08068017121820947
+🎯 DEBUG: Used window_bar_start: 137701, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.2920767668611246
+🎯 DEBUG: Used window_bar_start: 139962, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.17497564463682402
+🎯 DEBUG: Used window_bar_start: 140087, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.034168871476174756
+🎯 DEBUG: Used window_bar_start: 142619, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.11180397106016149
+🎯 DEBUG: Used window_bar_start: 144882, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.13026789565083874
+🎯 DEBUG: Used window_bar_start: 146379, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.013515585174792122
+🎯 DEBUG: Used window_bar_start: 146587, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.05722743542700637
+🎯 DEBUG: Used window_bar_start: 148226, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08608071948058371
+🎯 DEBUG: Used window_bar_start: 149226, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.14122543907474694
+🎯 DEBUG: Used window_bar_start: 149666, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.24530402290464792
+🎯 DEBUG: Used window_bar_start: 150882, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.2867447391723854
+🎯 DEBUG: Used window_bar_start: 152001, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.05537358974476114
+🎯 DEBUG: Used window_bar_start: 152708, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08483550433952847
+🎯 DEBUG: Used window_bar_start: 153863, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.33454519240125924
+🎯 DEBUG: Used window_bar_start: 155451, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.017725471889047162
+🎯 DEBUG: Used window_bar_start: 157788, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08302937309727376
+🎯 DEBUG: Used window_bar_start: 163166, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.00990272088908739
+🎯 DEBUG: Used window_bar_start: 168589, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.03376846890235541
+🎯 DEBUG: Used window_bar_start: 171486, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.04908537595712126
+🎯 DEBUG: Used window_bar_start: 172682, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.41115804329129024
+🎯 DEBUG: Used window_bar_start: 173121, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.1436284416260043
+🎯 DEBUG: Used window_bar_start: 174608, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.5175808073352803
+🎯 DEBUG: Used window_bar_start: 174675, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.17240694151587133
+🎯 DEBUG: Used window_bar_start: 176137, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.18297727853804258
+🎯 DEBUG: Used window_bar_start: 176338, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.004059725179057949
+🎯 DEBUG: Used window_bar_start: 176999, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.11294336335828081
+🎯 DEBUG: Used window_bar_start: 177537, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.3920446515843099
+🎯 DEBUG: Used window_bar_start: 178277, bars = 1
+🔍 DEBUG: entry_atr_increment = 1.2618091838748924
+🎯 DEBUG: Used window_bar_start: 179003, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.11758195303055174
+🎯 DEBUG: Used window_bar_start: 180911, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08167784780106713
+🎯 DEBUG: Used window_bar_start: 183379, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.2327427057963969
+🎯 DEBUG: Used window_bar_start: 186727, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.23702947785926876
+🎯 DEBUG: Used window_bar_start: 186995, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.13317998032403422
+🎯 DEBUG: Used window_bar_start: 187882, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.11213283972086163
+🎯 DEBUG: Used window_bar_start: 188845, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.03742202861587529
+🎯 DEBUG: Used window_bar_start: 192495, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.4768866633665516
+🎯 DEBUG: Used window_bar_start: 192794, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.10422910873049518
+🎯 DEBUG: Used window_bar_start: 193669, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.4498167208994335
+🎯 DEBUG: Used window_bar_start: 194084, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.16743268295219083
+🎯 DEBUG: Used window_bar_start: 196792, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12690320302257718
+🎯 DEBUG: Used window_bar_start: 199286, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.026158069538237738
+🎯 DEBUG: Used window_bar_start: 201358, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.028276892187856673
+🎯 DEBUG: Used window_bar_start: 203568, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.21401340486706166
+🎯 DEBUG: Used window_bar_start: 204328, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.023153351994858795
+🎯 DEBUG: Used window_bar_start: 205312, bars = 4
+🔍 DEBUG: entry_atr_increment = -0.49632960141831295
+🎯 DEBUG: Used window_bar_start: 206964, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07340485811909536
+🎯 DEBUG: Used window_bar_start: 207271, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.17932128739538178
+🎯 DEBUG: Used window_bar_start: 207975, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.2666572434110417
+🎯 DEBUG: Used window_bar_start: 209233, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07342141486429699
+🎯 DEBUG: Used window_bar_start: 209711, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.29091723634009714
+🎯 DEBUG: Used window_bar_start: 212092, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.008242994749737331
+🎯 DEBUG: Used window_bar_start: 213276, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.06231725000616173
+🎯 DEBUG: Used window_bar_start: 217017, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.11768684194871848
+🎯 DEBUG: Used window_bar_start: 219861, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.20979172032878268
+🎯 DEBUG: Used window_bar_start: 221025, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.1836474477438501
+🎯 DEBUG: Used window_bar_start: 221138, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.15079270218861163
+🎯 DEBUG: Used window_bar_start: 222851, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12026014450622113
+🎯 DEBUG: Used window_bar_start: 224171, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.26185790552883137
+🎯 DEBUG: Used window_bar_start: 224463, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.015868806038804473
+🎯 DEBUG: Used window_bar_start: 228437, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08975590058648075
+🎯 DEBUG: Used window_bar_start: 229219, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.014209471147935249
+🎯 DEBUG: Used window_bar_start: 229926, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.008378946342857185
+🎯 DEBUG: Used window_bar_start: 230826, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.02462896653353075
+🎯 DEBUG: Used window_bar_start: 237578, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.15916949329709862
+🎯 DEBUG: Used window_bar_start: 237818, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.24398723104619702
+🎯 DEBUG: Used window_bar_start: 239627, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.10886983022531749
+🎯 DEBUG: Used window_bar_start: 244842, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.1174959869870511
+🎯 DEBUG: Used window_bar_start: 245455, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.1554561754317536
+🎯 DEBUG: Used window_bar_start: 246062, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.21262553429562225
+🎯 DEBUG: Used window_bar_start: 246470, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12701755866287556
+🎯 DEBUG: Used window_bar_start: 247703, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.06835176125251374
+🎯 DEBUG: Used window_bar_start: 249568, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12771113980215043
+🎯 DEBUG: Used window_bar_start: 249942, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.0265130934350305
+🎯 DEBUG: Used window_bar_start: 249973, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.0034613490799342284
+🎯 DEBUG: Used window_bar_start: 253931, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.13792560026303802
+🎯 DEBUG: Used window_bar_start: 254745, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.1909768566622938
+🎯 DEBUG: Used window_bar_start: 257456, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.504477381994425
+🎯 DEBUG: Used window_bar_start: 258780, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.004394806969193477
+🎯 DEBUG: Used window_bar_start: 260501, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.16402434609553307
+🎯 DEBUG: Used window_bar_start: 264803, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.2050718536228533
+🎯 DEBUG: Used window_bar_start: 269598, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.05973751742921518
+🎯 DEBUG: Used window_bar_start: 272429, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.2977937685409797
+🎯 DEBUG: Used window_bar_start: 274068, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.048661931101227074
+🎯 DEBUG: Used window_bar_start: 274884, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.0025822544016951277
+🎯 DEBUG: Used window_bar_start: 275426, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.022394493547692518
+🎯 DEBUG: Used window_bar_start: 277587, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.19673196021536254
+🎯 DEBUG: Used window_bar_start: 277908, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12089138554673606
+🎯 DEBUG: Used window_bar_start: 278464, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.17108860451153474
+🎯 DEBUG: Used window_bar_start: 282795, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08468188475909133
+🎯 DEBUG: Used window_bar_start: 283086, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.010679655262222365
+🎯 DEBUG: Used window_bar_start: 283387, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.042541613646881915
+🎯 DEBUG: Used window_bar_start: 285389, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.023694948840014662
+🎯 DEBUG: Used window_bar_start: 286302, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.14312312051373688
+🎯 DEBUG: Used window_bar_start: 286948, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.22313068708500827
+🎯 DEBUG: Used window_bar_start: 289744, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.24271142043355098
+🎯 DEBUG: Used window_bar_start: 290307, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.0030368991382598853
+🎯 DEBUG: Used window_bar_start: 291715, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.03751406518917477
+🎯 DEBUG: Used window_bar_start: 292586, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.03554839943860488
+🎯 DEBUG: Used window_bar_start: 292831, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.06557769359698717
+🎯 DEBUG: Used window_bar_start: 293441, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.007398983364117262
+🎯 DEBUG: Used window_bar_start: 293900, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.0909436892660549
+🎯 DEBUG: Used window_bar_start: 295364, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.006319666040703664
+🎯 DEBUG: Used window_bar_start: 296811, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07814202916810953
+🎯 DEBUG: Used window_bar_start: 299387, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.07754738176558051
+🎯 DEBUG: Used window_bar_start: 301536, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.01601198515964719
+🎯 DEBUG: Used window_bar_start: 303711, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.002909540266876065
+🎯 DEBUG: Used window_bar_start: 304131, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.029987242581447582
+🎯 DEBUG: Used window_bar_start: 305661, bars = 5
+🔍 DEBUG: entry_atr_increment = -0.028896468884372584
+🎯 DEBUG: Used window_bar_start: 307234, bars = 3
+🔍 DEBUG: entry_atr_increment = 0.13225429040439007
+🎯 DEBUG: Used window_bar_start: 307932, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.9267069570416537
+🎯 DEBUG: Used window_bar_start: 309073, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.00939933449472563
+🎯 DEBUG: Used window_bar_start: 310831, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08413171210619463
+🎯 DEBUG: Used window_bar_start: 311582, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.2442303810019042
+🎯 DEBUG: Used window_bar_start: 311689, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.025511343923723562
+🎯 DEBUG: Used window_bar_start: 314616, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.0676912808750132
+🎯 DEBUG: Used window_bar_start: 316995, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.19186624532484675
+🎯 DEBUG: Used window_bar_start: 319954, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.12757760240878313
+🎯 DEBUG: Used window_bar_start: 327216, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.08728071148025451
+🎯 DEBUG: Used window_bar_start: 327965, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.03609548775626592
+🎯 DEBUG: Used window_bar_start: 329544, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.1280413855581206
+🎯 DEBUG: Used window_bar_start: 331544, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.14203386964009934
+🎯 DEBUG: Used window_bar_start: 334950, bars = 3
+🔍 DEBUG: entry_atr_increment = 0.21076220998003548
+🎯 DEBUG: Used window_bar_start: 337814, bars = 5
+🔍 DEBUG: entry_atr_increment = -0.196155816266947
+🎯 DEBUG: Used window_bar_start: 340256, bars = 3
+🔍 DEBUG: entry_atr_increment = 0.4798793928377376
+🎯 DEBUG: Used window_bar_start: 340666, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.11343265411991943
+🎯 DEBUG: Used window_bar_start: 341345, bars = 3
+🔍 DEBUG: entry_atr_increment = -0.27829070842851955
+🎯 DEBUG: Used window_bar_start: 342606, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.31008683893582956
+🎯 DEBUG: Used window_bar_start: 345333, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.022611257371655924
+🎯 DEBUG: Used window_bar_start: 346999, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.15950404184279832
+🎯 DEBUG: Used window_bar_start: 350735, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08868377367335767
+🎯 DEBUG: Used window_bar_start: 353299, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.8331781092522781
+🎯 DEBUG: Used window_bar_start: 356092, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.018139744311694184
+🎯 DEBUG: Used window_bar_start: 356451, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.46159884023225284
+🎯 DEBUG: Used window_bar_start: 363323, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.03514861677973524
+🎯 DEBUG: Used window_bar_start: 364966, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.18460234856825597
+🎯 DEBUG: Used window_bar_start: 365148, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.011509822070201015
+🎯 DEBUG: Used window_bar_start: 370923, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.11030889373667518
+🎯 DEBUG: Used window_bar_start: 372390, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.2963893206284043
+🎯 DEBUG: Used window_bar_start: 372765, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.15512551117267903
+🎯 DEBUG: Used window_bar_start: 373145, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.01383899414117562
+🎯 DEBUG: Used window_bar_start: 381525, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.0921423098818841
+🎯 DEBUG: Used window_bar_start: 383158, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.014794872238727441
+🎯 DEBUG: Used window_bar_start: 385659, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.1481071549091466
+🎯 DEBUG: Used window_bar_start: 386317, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.024111482559417086
+🎯 DEBUG: Used window_bar_start: 386913, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.1336489984943059
+🎯 DEBUG: Used window_bar_start: 388757, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.3952005619074903
+🎯 DEBUG: Used window_bar_start: 389176, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.06377383550901694
+🎯 DEBUG: Used window_bar_start: 390506, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.007679782702349369
+🎯 DEBUG: Used window_bar_start: 392339, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.3514611144065707
+🎯 DEBUG: Used window_bar_start: 397088, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.3957363478084073
+🎯 DEBUG: Used window_bar_start: 397335, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.037096308797853306
+🎯 DEBUG: Used window_bar_start: 400091, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.08023192454865713
+🎯 DEBUG: Used window_bar_start: 401737, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.09576206855469183
+🎯 DEBUG: Used window_bar_start: 410128, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.21602363177526862
+🎯 DEBUG: Used window_bar_start: 414567, bars = 2
+🔍 DEBUG: entry_atr_increment = 0.14397012360343497
+🎯 DEBUG: Used window_bar_start: 414742, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.18951645201772394
+🎯 DEBUG: Used window_bar_start: 416755, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.06177113298790338
+🎯 DEBUG: Used window_bar_start: 417762, bars = 2
+🔍 DEBUG: entry_atr_increment = -0.034474320868153496
+🎯 DEBUG: Used window_bar_start: 420629, bars = 3
+🔍 DEBUG: entry_atr_increment = 0.21120857842048557
+🎯 DEBUG: Used window_bar_start: 424092, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.09320598363879862
+🎯 DEBUG: Used window_bar_start: 431246, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.1819006427837504
+🎯 DEBUG: Used window_bar_start: 434181, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.22511168781336965
+🎯 DEBUG: Used window_bar_start: 436369, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.0960586134874093
+🎯 DEBUG: Used window_bar_start: 437008, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.059248368824507125
+🎯 DEBUG: Used window_bar_start: 439430, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.07819444873952519
+🎯 DEBUG: Used window_bar_start: 439649, bars = 1
+🔍 DEBUG: entry_atr_increment = -0.46620885663564593
+🎯 DEBUG: Used window_bar_start: 440996, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.48593935292463475
+🎯 DEBUG: Used window_bar_start: 443344, bars = 1
+🔍 DEBUG: entry_atr_increment = 0.00031523284459700207
+=== SUNRISE OGLE SUMMARY ===
+Trades: 242 Wins: 98 Losses: 144 WinRate: 40.50% PF: 0.89
+Final Value: 85,928.63 | Total PnL: -14,071.37
+
+=== ENTRY SIGNAL DEBUG STATS ===
+Total Entry Signals Evaluated: 0
+Blocked Entries: 0
+Successful Entries: 0
+📊 Trade report completed: 242 trades recorded
+
+================================================================================
+[STATS] BACKTEST RESULTS - XAUUSD M30 TRADING BOT
+================================================================================
+
+[ACCOUNT] PORTFOLIO PERFORMANCE:
+   Starting Capital:    $100,000.00
+   Final Value:         $85,928.63
+   Total P&L:           $-14,071.37
+   Return:              -14.07%
+
+[UP] RISK-ADJUSTED METRICS:
+   Sharpe Ratio:        -0.011
+   Max Drawdown:        20.99%
+   Max Drawdown ($):    $21,742.87
+
+[TARGET] TRADE STATISTICS:
+   Total Trades:        242
+   Winning Trades:      98 (40.50%)
+   Losing Trades:       144
+
+[MONEY] PROFITABILITY:
+   Profit Factor:       0.89
+   Gross Profit:        $117,164.60
+   Gross Loss:          $131,235.97
+   Average Win:         $1,195.56
+   Average Loss:        $-911.36
+   Expectancy/Trade:    $-58.15
+
+================================================================================
+
+[STATS] Generating performance chart...
+
+[WARNING]  Plot error: cannot import name 'warnings' from 'matplotlib.dates' (D:\goldbot\backtrader-pullback-window-xauusd\venv\Lib\site-packages\matplotlib\dates.py)

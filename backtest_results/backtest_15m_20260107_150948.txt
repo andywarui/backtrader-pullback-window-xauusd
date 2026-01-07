@@ -1,0 +1,21 @@
+BACKTEST RESULTS - 15M Timeframe
+Period: 2004-06-11 to 2023-12-07
+Data File: XAU_15m_converted.csv
+============================================================
+
+
+================================================================================
+[BOT] XAUUSD M30 TRADING BOT - INITIALIZING
+================================================================================
+
+
+ERRORS:
+Traceback (most recent call last):
+  File "D:\goldbot\backtrader-pullback-window-xauusd\_temp_backtest_15m.py", line 14, in <module>
+    bot.setup_cerebro()
+  File "D:\goldbot\backtrader-pullback-window-xauusd\xauusd_trading_bot.py", line 1124, in setup_cerebro
+    print(f"\U0001f4c2 Loading data: {self.config['data_file']}")
+  File "C:\Users\KRAFTLAB\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c2' in position 0: character maps to <undefined>
